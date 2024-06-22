@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:text="00:00:00"/>
+
+    <LinearLayout
+        android:id="@+id/GymExercis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/gym_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gkgnklgnsjgnjsdn"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/gym_doneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тренировка закончена! Ты молодец!!!"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/gymBtnNextExercis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Следующее упражнение"
+            android:layout_marginTop="300dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
